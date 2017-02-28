@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'http://bitbucket.eccmp.com/scm/ms/ios-sdk.git' }
+  s.source       = { :git => 'https://github.com/Marketing-Suite/ios-sdk.git' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
