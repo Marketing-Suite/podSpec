@@ -16,15 +16,14 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EMSMobileSDK"
-  s.version      = "0.0.1"
-  s.summary      = "Experian Marketing Services Mobile SDK."
+  s.version      = "1.2.2"
+  s.summary      = "Cheetah Digital Mobile SDK."
 
   s.description  = <<-DESC
-                  SDK for developing iOS applications integrated with the Experian Marketing
-                  Services Cross Channel platform.
+                  SDK for developing iOS applications integrated with the Cheetah Digital Marketing Suite.
                    DESC
 
-  s.homepage     = "http://www.experian.com/marketing-services/marketing-services.html"
+  s.homepage     = "https://cheetahdigital.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -35,7 +34,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "Copyright Experian Marketing Services 2017, All Rights Reserved"
+  s.license      = "Copyright Cheetah Digital 2017, All Rights Reserved"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -49,7 +48,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = "Experian Marketing Services"
+  s.author             = "Cheetah Digital"
   # Or just: s.author    = ""
   # s.authors            = { "" => "" }
   # s.social_media_url   = "http://twitter.com/"
@@ -76,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'http://bitbucket.eccmp.com/scm/ms/ios-sdk.git' }
+  s.source       = { :git => 'https://github.com/Marketing-Suite/ios-sdk.git', :tag=>'release-1.2.2' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
