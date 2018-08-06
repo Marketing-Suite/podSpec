@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EMSMobileSDK"
-  s.version      = "1.3.1"
+  s.version      = "1.3.2"
   s.summary      = "Cheetah Digital Mobile SDK."
 
   s.description  = <<-DESC
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'https://github.com/Marketing-Suite/ios-sdk.git', :tag=>'release-1.3.1' }
+  s.source       = { :git => 'https://github.com/Marketing-Suite/ios-sdk.git', :tag=>'release-1.3.2' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
